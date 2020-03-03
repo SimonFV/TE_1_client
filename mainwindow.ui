@@ -71,13 +71,13 @@
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>380</y>
+      <y>400</y>
       <width>89</width>
       <height>25</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Generar</string>
     </property>
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget_4">

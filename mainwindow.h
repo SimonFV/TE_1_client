@@ -17,6 +17,9 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
+/**
+ * @brief Clase que crea la aplicacion con la interfaz grafica del cliente
+ */
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -24,6 +27,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void generate_Graph(string data);
 
 private slots:
 
